@@ -1,4 +1,6 @@
-const express = require("express")
+import express from "express";
+import routers from "./routes"; 
+
 const app = express()
 
 // クライアントから送信されたデータを解析し、req.bodyオブジェクトとしてアクセスできるようにする
@@ -11,7 +13,6 @@ app.set("view engine", "ejs")
 app.use("/public", express.static("public"))
 
 // ルーティングを読み込む
-const routers = require("./routes")
 app.use(routers)
 
 // localhost:5000で起動

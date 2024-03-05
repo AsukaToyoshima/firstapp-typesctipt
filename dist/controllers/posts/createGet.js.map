@@ -1,1 +1,1 @@
-{"version":3,"file":"createGet.js","sourceRoot":"","sources":["../../../controllers/posts/createGet.js"],"names":[],"mappings":";AAAA,SAAS;AACT,MAAM,CAAC,OAAO,GAAG,CAAC,GAAG,EAAE,GAAG,EAAE,EAAE;IAC5B,GAAG,CAAC,MAAM,CAAC,iBAAiB,CAAC,CAAA;AAC/B,CAAC,CAAA"}
+{"version":3,"file":"createGet.js","sourceRoot":"","sources":["../../../controllers/posts/createGet.ts"],"names":[],"mappings":";;AAEA,SAAS;AACT,MAAM,SAAS,GAAG,CAAC,GAAY,EAAE,GAAa,EAAQ,EAAE;IACtD,GAAG,CAAC,MAAM,CAAC,iBAAiB,CAAC,CAAA;AAC/B,CAAC,CAAA;AAED,kBAAe,SAAS,CAAC"}

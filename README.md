@@ -1,10 +1,9 @@
 # 本アプリの概要
-Expressで最低限のCRUD要件を満たしたアプリです。フロントはFirstAppをベースに、編集、削除のUIを追加しています。\n
-MVCにファイル分割実施。Viewは、DBはMongoDB Atlasを使用。
+Expressで作成したFirstAppを、TypeScriptに書き換えたものです。MVCにファイル分割実施。ViewはEJS、DBはpostgresqlを使用。
 
 
 # 動作環境
-- node.js：v16.20.2（20でも動作することを確認済み）
+- node.js：v20.11.0
 - npm：8.19.4
 
 # 導入・動作確認手順
@@ -49,4 +48,4 @@ npx prisma migrate reset
 ターミナルで`node index.js`を実行する。（nodemonでも可）
 
 ## 8. ブラウザで接続
-ブラウザで`localhost:5000/posts`にアクセス。
+ブラウザで`localhost:3000/posts`にアクセス。

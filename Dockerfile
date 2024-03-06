@@ -26,5 +26,4 @@ RUN npx prisma generate
 EXPOSE 3000
 
 # コンテナが起動した時の起動コマンドを設定。
-#CMD ["/bin/sh", "-c", "/app/wait-for-it.sh db:5432 && npx prisma migrate deploy && nodemon dist/index.js"]
-CMD ["/bin/sh", "-c", "npx prisma migrate deploy && nodemon dist/index.js"]
+CMD ["/bin/sh", "-c", "/app/wait-for-it.sh db:5432 && npx prisma migrate deploy && nodemon dist/index.js"]
